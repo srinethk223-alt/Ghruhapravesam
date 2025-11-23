@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ghruhapravesam | Construction & Interior Design | Razole, East Godavari</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #020617;
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+    }
+    header {
+      background: #0b1020;
+      padding: 15px 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-area img {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+    }
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+    .hero {
+      padding: 70px 25px;
+      text-align: left;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero h1 {
+      font-size: 38px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 16px;
+      opacity: 0.8;
+      max-width: 650px;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: #facc15;
+      padding: 12px 22px;
+      border-radius: 8px;
+      color: #111;
+      margin-top: 20px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    /* models */
+    .models {
+      padding: 60px 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .models-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+      gap: 18px;
+    }
+    .model-card {
+      background: #0b1020;
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .model-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #0b1020;
+      margin-top: 60px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+
+  <!-- Redirect script -->
+  <script>
+    function openWhatsApp() {
+      window.location.href = "https://wa.me/919704964589";
+    }
+  </script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo-area">
+    <img src="logo.png" alt="Ghruhapravesam Logo">
+    <div>
+      <div style="font-size:16px; font-weight:700;">GHRUHAPRAVESAM</div>
+      <div style="font-size:10px; opacity:0.7; letter-spacing:1px;">Construction • Interiors • Vastu</div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#models">Models</a>
+    <a href="#contact">Contact</a>
+    <a href="#!" onclick="openWhatsApp()">Book Call</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Modern Vastu-Based Construction & Interior Design in Razole</h1>
+  <p>We create vastu-friendly house plans, modular kitchen designs, interior concepts, and commercial layouts for shops and offices with stylish and natural finish.</p>
+
+  <div class="btn-primary" onclick="openWhatsApp()">WhatsApp Now →</div>
+</section>
+
+<section class="models" id="models">
+  <h2>Interior & Construction Samples</h2>
+  <p>Stylish, natural and modern layout inspirations.</p>
+
+  <div class="models-grid">
+
+    <div class="model-card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800" />
+      Modern Living Room
+    </div>
+
+    <div class="model-card">
+      <img src="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?q=80&w=800" />
+      Modular Kitchen Design
+    </div>
+
+    <div class="model-card">
+      <img src="https://images.pexels.com/photos/6585753/pexels-photo-6585753.jpeg?auto=compress&w=800" />
+      False Ceiling + Lighting
+    </div>
+
+  </div>
+</section>
+
+<section class="hero" id="contact">
+  <h2>Contact Ghruhapravesam</h2>
+  <p>Phone / WhatsApp: <strong>9704964589</strong><br>
+     Email: <strong>naiyya200@gmail.com</strong></p>
+
+  <div class="btn-primary" onclick="openWhatsApp()">Chat on WhatsApp</div>
+</section>
+
+<footer>
+  © <script>document.write(new Date().getFullYear())</script> Ghruhapravesam • Razole, East Godavari
+</footer>
+
+</body>
+</html>
